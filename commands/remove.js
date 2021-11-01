@@ -4,7 +4,7 @@ const { TrackUtils } = require("erela.js");
 module.exports = {
   name: "remove",
   description: `Xóa bài hát khỏi hàng chờ`,
-  usage: "[số thứ tự]",
+  usage: "[Số bài hát]",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
     member: [],

@@ -6,7 +6,7 @@ const prettyMilliseconds = require("pretty-ms");
 module.exports = {
   name: "search",
   description: "Hiển thị kết quả của các bài hát dựa trên tìm kiếm",
-  usage: "[bài hát]",
+  usage: "[Bài hát]",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
     member: [],

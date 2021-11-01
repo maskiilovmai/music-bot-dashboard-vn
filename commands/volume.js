@@ -4,7 +4,7 @@ const { TrackUtils } = require("erela.js");
 module.exports = {
   name: "volume",
   description: "Kiểm tra hoặc thay đổi âm lượng hiện tại",
-  usage: "<volume>",
+  usage: "<số âm lượng>",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
     member: [],

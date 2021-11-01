@@ -4,7 +4,7 @@ const { TrackUtils, Player } = require("erela.js");
 module.exports = {
   name: "skipto",
   description: `Bỏ qua đến một bài hát trong hàng chờ`,
-  usage: "<number>",
+  usage: "<Số bài hát>",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
     member: [],

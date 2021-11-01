@@ -5,7 +5,7 @@ const prettyMilliseconds = require("pretty-ms");
 module.exports = {
   name: "play",
   description: "Phát các bài hát yêu thích của bạn",
-  usage: "[tên bài hát]",
+  usage: "[Tên bài hát]",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
     member: [],
