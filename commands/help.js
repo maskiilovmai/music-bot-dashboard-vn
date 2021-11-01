@@ -56,7 +56,7 @@ module.exports = {
         .setDescription(cmd.description)
         .setColor("GREEN")
         .addField("Tên", `\`${cmd.name}\``, true)
-        .addField("Cách biệt danh", `\`${cmd.aliases.join(", ")}\``, true)
+        .addField("Các biệt danh", `\`${cmd.aliases.join(", ")}\``, true)
         .addField(
           "Sử dụng",
           `\`${GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix}${
