@@ -165,8 +165,8 @@ class DiscordMusicBot extends Client {
         let TrackStartedEmbed = new MessageEmbed()
           .setAuthor(`Đang phát ♪`, this.botconfig.IconURL)
           .setThumbnail(player.queue.current.displayThumbnail())
-          .setDescription(`[${track.title}](${track.uri})`)
-          .addField("Tác giả", `\`${song.author}\``, true)
+          .setDescription(`\**Bài hát:**\ [${track.title}](${track.uri})`)
+          .addField("Tác giả", `\`${track.author}\``, true)
           .addField("Yêu cầu bởi", `${track.requester}`, true)
           .addField(
             "Thời lượng",
