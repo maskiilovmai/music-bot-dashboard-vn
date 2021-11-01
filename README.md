@@ -7,7 +7,7 @@ Author code by [SudhanPlayz](https://github.com/SudhanPlayz). Source code is [Su
 Discord-MusicBot
 ](https://github.com/SudhanPlayz/Discord-MusicBot)
 
-And this code edited by [me](https://github.com/maskiilovmai)
+And this code edited by [me](https://github.com/maskiilovmai) and only for Vietnamese user
 
 ## ✨Latest Updates
 Discord.js v13 will break this bot so do not use this with it. We have been started working on [v5](https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5) which will be out in some days/months with new features and much more are on the way.
