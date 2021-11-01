@@ -20,8 +20,8 @@ module.exports = {
     let Config = new MessageEmbed()
       .setAuthor("Cấu hình máy chủ", client.botconfig.IconURL)
       .setColor(client.botconfig.EmbedColor)
-      .addField("Prefix - Tiền tố", GuildDB.prefix, true)
-      .addField("DJ Role - Vai trò DJ", GuildDB.DJ ? `<@&${GuildDB.DJ}>` : "Not Set", true)
+      .addField("Prefix", GuildDB.prefix, true)
+      .addField("DJ Role", GuildDB.DJ ? `<@&${GuildDB.DJ}>` : "Not Set", true)
       .setDescription(`
 Bạn muốn chỉnh sửa danh mục nào?
 
