@@ -96,7 +96,7 @@ module.exports = {
       let w = (a) => new Promise((r) => setInterval(r, a));
       await w(500); //waits 500ms cuz needed to wait for the above song search embed to send ._.
       let msg = await message.channel.send(
-        "**Nhập số bài hát bạn muốn phát! Hết hạn sau `60 giây '.**"
+        "**Nhập số bài hát bạn muốn phát! Hết hạn sau `60 giây`.**"
       );
 
       let er = false;
