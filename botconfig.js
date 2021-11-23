@@ -20,18 +20,19 @@ module.exports = {
   Website: process.env.Website || "http://localhost", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
   
   Presence: {
-    status: "online", // You can show online, idle, and dnd
-    name: "Music", // The message shown
-    type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+    status: process.env.Presence_Status || "online", // You can show online, idle, and dnd
+    name: process.env.Presence_Name || "Name of status", // The message shown
+    type: process.env.Presence_Type || "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+    url: process.env.Presence_URL || "https://twitch.tv/username" // Set url Twitch if you set type is STREAMING
   },
 
   //Lavalink
   Lavalink: {
-    id: "main",
-    host: "lava.link",
-    port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "maskiilovmai",
-    secure: false, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
+    id: process.env.Lavalink_ID || "id",
+    host: process.env.Lavalink_Host || "host name",
+    port: 443, // The port that lavalink is listening to. This must be a number!
+    pass: process.env.Lavalink_Pass || "pass", // You can customize this!
+    secure: true, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it. If not set it to false
   },
 
   //Please go to https://developer.spotify.com/dashboard/

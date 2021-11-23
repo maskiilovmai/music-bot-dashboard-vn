@@ -2,7 +2,7 @@
   "name": "Discord-MusicBot",
   "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
   "repository": "https://github.com/SudhanPlayz/Discord-MusicBot",
-  "logo": "https://cdn.discordapp.com/avatars/750613142488481843/e6326038dbe2243ca551ba5b6ecd8bf2.png?size=1024",
+  "logo": "https://raw.githubusercontent.com/maskiilovmai/image/main/Klee_Drool.jpg",
   "keywords": [
     "node",
     "discord",
@@ -37,7 +37,7 @@
     },
     "Website": {
       "description": "URL of your webserver (Example: https://domain.xyz). Change this if you want to use the web-dashboard.",
-      "value": "http://localhost"
+      "value": "https://"
     },
     "Spotify_ClientID": {
       "description": "Spotify ClientID. This is used if you want to use Spotify features for your bot. (https://developer.spotify.com/dashboard/)",
@@ -45,6 +45,34 @@
     },
     "Spotify_ClientSecret": {
       "description": "Spotify ClientSecret. This is used if you want to use Spotify features for your bot. (https://developer.spotify.com/dashboard/)",
+      "required": "true"
+    },
+    "Presence_Status": {
+      "description": "The Status Discord Bot (You can show online, idle, and dnd)",
+      "required": "true"
+    },
+    "Presence_Name": {
+      "description": "The Name of Status Discord Bot",
+      "required": "true"
+    },
+    "Presence_Type": {
+      "description": "The Type of Status Discord Bot (PLAYING, WATCHING, LISTENING, STREAMING)",
+      "required": "true"
+    },
+    "Presence_URL": {
+      "description": "Set url Twitch if you set type is STREAMING",
+      "value": "https://twitch.tv/username"
+    },
+    "Lavalink_ID": {
+      "description": "The ID of Lavalink (default is 'main'). Support only Lavalink using SSL",
+      "value": "main"
+    },
+    "Lavalink_Host": {
+      "description": "The Host Name of Lavalink. Support only Lavalink using SSL",
+      "required": "true"
+    },
+    "Lavalink_Password": {
+      "description": "The Password of Lavalink. Support only Lavalink using SSL",
       "required": "true"
     }
   }
